@@ -2,8 +2,12 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
+# Path to your Driver
 browser = webdriver.Chrome('/home/sagar/Downloads/chromedriver')
+
+
 browser.get("https://gabrielecirulli.github.io/2048/")
+
 bodyElem = browser.find_element_by_tag_name("body")
 gameOver=0
 while gameOver==0:
