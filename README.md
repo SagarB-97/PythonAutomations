@@ -6,3 +6,5 @@ Automated the following:<br>
 2. XKCD comics download
 3. Wikipedia crawler
 4. Typing Test website
+<br><br>
+Go into each directory for instructions on running the script.
